@@ -1,6 +1,7 @@
 .hero {
   padding-top: 60px;
   padding-bottom: 50px;
+  background-color: var(--background-color);
 }
 
 .hero-wrapper {
@@ -49,21 +50,22 @@
 }
 
 .hero__btn {
-  width: 98px;
-  height: 32px;
-  font-size: 13px;
-  line-height: 1.5;
-  font-weight: 500;
-  color: var(--font-color);
-  text-align: center;
-  background-color: var(--accent-color);
-  border-radius: 30px;
-  border: none;
-  cursor: pointer;
-  transition: background-color 250ms linear;
+  // width: 98px;
+  // height: 32px;
+  // font-size: 13px;
+  // line-height: 1.5;
+  // font-weight: 500;
+  // color: var(--font-color);
+  // text-align: center;
+  // background-color: var(--accent-color);
+  // border-radius: 30px;
+  // border: none;
+  // cursor: pointer;
+  // transition: background-color 250ms linear;
 
-  &:hover,
-  &:focus {
-    background-color: var(--hover-btn);
-  }
+  // &:hover,
+  // &:focus {
+  //   background-color: var(--hover-btn);
+  // }
+  @extend %accent-btn;
 }
