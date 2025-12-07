@@ -5,3 +5,31 @@
   font-weight: 700;
   color: var(--font-color);
 }
+
+%btn {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+%accent-btn {
+  width: 98px;
+  height: 32px;
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: var(--font-color);
+  text-align: center;
+  background-color: var(--accent-color);
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 250ms linear;
+
+  &:hover,
+  &:focus {
+    background-color: var(--hover-btn);
+  }
+}
